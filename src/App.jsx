@@ -70,8 +70,8 @@ function App() {
             />
           </div>
           <div
-            className=" border border-white rounded-lg w-11/12 text-black font-medium text-center p-1 bg-slate-400"
-            // onClick={convert}
+            className=" border border-white rounded-lg w-11/12 text-black font-medium text-center p-1 bg-slate-400 cursor-pointer"
+            onClick={convert}
           >
             Convert
           </div>
